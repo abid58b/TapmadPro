@@ -1,0 +1,17 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=3185600,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2"
+https://saseries.akamaized.net/hls/live/2110097/tappak/hdntl=exp=1760262716~acl=%2f*~data=hdntl~hmac=98b19274b7596b519e3985fae0e9c3b447b34ed2d3fea9c94278011dffc74574/level_0.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=2195600,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
+https://saseries.akamaized.net/hls/live/2110097/tappak/hdntl=exp=1760262716~acl=%2f*~data=hdntl~hmac=98b19274b7596b519e3985fae0e9c3b447b34ed2d3fea9c94278011dffc74574/level_1.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=1425600,RESOLUTION=960x540,CODECS="avc1.64001f,mp4a.40.2"
+https://saseries.akamaized.net/hls/live/2110097/tappak/hdntl=exp=1760262716~acl=%2f*~data=hdntl~hmac=98b19274b7596b519e3985fae0e9c3b447b34ed2d3fea9c94278011dffc74574/level_2.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=798600,RESOLUTION=640x360,CODECS="avc1.64001e,mp4a.40.2"
+https://saseries.akamaized.net/hls/live/2110097/tappak/hdntl=exp=1760262716~acl=%2f*~data=hdntl~hmac=98b19274b7596b519e3985fae0e9c3b447b34ed2d3fea9c94278011dffc74574/level_3.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=380600,RESOLUTION=480x270,CODECS="avc1.640015,mp4a.40.2"
+https://saseries.akamaized.net/hls/live/2110097/tappak/hdntl=exp=1760262716~acl=%2f*~data=hdntl~hmac=98b19274b7596b519e3985fae0e9c3b447b34ed2d3fea9c94278011dffc74574/level_4.m3u8
+
