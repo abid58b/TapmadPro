@@ -1,16 +1,16 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3185600,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2"
-https://saseries.akamaized.net/hls/live/2110097/T@p305t@P!23@25!95/hdntl=exp=1760364528~acl=%2f*~data=hdntl~hmac=a02ef3082416aef8d87a103c12d25a451166ff9a28edc8ec477487d22e967350/level_0.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1760519813~acl=%2f*~data=hdntl~hmac=4436848e1d7fb7868157d2a32c9095878cee16fd077456c1c5a667b119532165/level_0.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=2195600,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
-https://saseries.akamaized.net/hls/live/2110097/T@p305t@P!23@25!95/hdntl=exp=1760364528~acl=%2f*~data=hdntl~hmac=a02ef3082416aef8d87a103c12d25a451166ff9a28edc8ec477487d22e967350/level_1.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1760519813~acl=%2f*~data=hdntl~hmac=4436848e1d7fb7868157d2a32c9095878cee16fd077456c1c5a667b119532165/level_1.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=1425600,RESOLUTION=960x540,CODECS="avc1.64001f,mp4a.40.2"
-https://saseries.akamaized.net/hls/live/2110097/T@p305t@P!23@25!95/hdntl=exp=1760364528~acl=%2f*~data=hdntl~hmac=a02ef3082416aef8d87a103c12d25a451166ff9a28edc8ec477487d22e967350/level_2.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1760519813~acl=%2f*~data=hdntl~hmac=4436848e1d7fb7868157d2a32c9095878cee16fd077456c1c5a667b119532165/level_2.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=798600,RESOLUTION=640x360,CODECS="avc1.64001e,mp4a.40.2"
-https://saseries.akamaized.net/hls/live/2110097/T@p305t@P!23@25!95/hdntl=exp=1760364528~acl=%2f*~data=hdntl~hmac=a02ef3082416aef8d87a103c12d25a451166ff9a28edc8ec477487d22e967350/level_3.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1760519813~acl=%2f*~data=hdntl~hmac=4436848e1d7fb7868157d2a32c9095878cee16fd077456c1c5a667b119532165/level_3.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=380600,RESOLUTION=480x270,CODECS="avc1.640015,mp4a.40.2"
-https://saseries.akamaized.net/hls/live/2110097/T@p305t@P!23@25!95/hdntl=exp=1760364528~acl=%2f*~data=hdntl~hmac=a02ef3082416aef8d87a103c12d25a451166ff9a28edc8ec477487d22e967350/level_4.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1760519813~acl=%2f*~data=hdntl~hmac=4436848e1d7fb7868157d2a32c9095878cee16fd077456c1c5a667b119532165/level_4.m3u8
