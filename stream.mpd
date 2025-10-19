@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Created with Unified Streaming Platform (version=1.12.13-29605) -->
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" availabilityStartTime="1970-01-01T00:00:12Z" publishTime="2025-10-19T18:51:43.209323Z" minimumUpdatePeriod="PT2S" suggestedPresentationDelay="PT14S" maxSegmentDuration="PT2S" minBufferTime="PT4S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264" id="123">
+  <BaseURL>../all/</BaseURL>
+  <Period id="1" start="PT0S">
+    <BaseURL>dash/</BaseURL>
+    <EventStream schemeIdUri="urn:scte:scte35:2014:xml+bin" timescale="10000000">
+      <!-- 2025-10-19T15:00:00.720000Z - 2025-10-19T15:00:08.720000Z -->
+    </EventStream>
+    <AdaptationSet id="1" group="1" contentType="audio" lang="en" segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <!-- Common Encryption -->
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="7B77AA4F-6AF2-5E3E-A3CC-77399A6960A6">
+      </ContentProtection>
+      <!-- Marlin -->
+      <ContentProtection schemeIdUri="urn:uuid:5E629AF5-38DA-4063-8977-97FFBD9902D4">
+        <MarlinContentIds xmlns="urn:marlin:mas:1-0:services:schemas:mpd">
+          <MarlinContentId>urn:marlin:kid:7b77aa4f6af25e3ea3cc77399a6960a6</MarlinContentId>
+        </MarlinContentIds>
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="MSPR 2.0">
+        <cenc:pssh>AAADQnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAyIiAwAAAQABABgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBUADYAcAAzAGUALwBKAHEAUABsADYAagB6AEgAYwA1AG0AbQBsAGcAcABnAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFIAQwAyADcAMwAwAHQAOAAwAEgAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcABzADoALwAvAGQAcgBtAC4AZAByAG0ALgBpAG4AZABhAHoAbgAuAGMAbwBtAC8AcABsAGEAeQByAGUAYQBkAHkALwB2ADEALwBsAGkAYwBlAG4AcwBlAD8AYwBvAG4AdABlAG4AdABJAGQAPQBoAHUAawBsAHIAawByAG8AbQBuAG0AMQA4ADgAMwAzADEAZwAwAG4AZgBrAGcAcQAvAGsAZQB5AEkAZAA9ADcAYgA3ADcAYQBhADQAZgAtADYAYQBmADIALQA1AGUAMwBlAC0AYQAzAGMAYwAtADcANwAzADkAOQBhADYAOQA2ADAAYQA2ADwALwBMAEEAXwBVAFIATAA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</cenc:pssh>
+        <mspr:IsEncrypted>1</mspr:IsEncrypted>
+        <mspr:IV_Size>8</mspr:IV_Size>
+        <mspr:kid>T6p3e/JqPl6jzHc5mmlgpg==</mspr:kid>
+        <mspr:pro>IgMAAAEAAQAYAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AVAA2AHAAMwBlAC8ASgBxAFAAbAA2AGoAegBIAGMANQBtAG0AbABnAHAAZwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBSAEMAMgA3ADMAMAB0ADgAMABIADAAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBkAHIAbQAuAGQAcgBtAC4AaQBuAGQAYQB6AG4ALgBjAG8AbQAvAHAAbABhAHkAcgBlAGEAZAB5AC8AdgAxAC8AbABpAGMAZQBuAHMAZQA/AGMAbwBuAHQAZQBuAHQASQBkAD0AaAB1AGsAbAByAGsAcgBvAG0AbgBtADEAOAA4ADMAMwAxAGcAMABuAGYAawBnAHEALwBrAGUAeQBJAGQAPQA3AGIANwA3AGEAYQA0AGYALQA2AGEAZgAyAC0ANQBlADMAZQAtAGEAMwBjAGMALQA3ADcAMwA5ADkAYQA2ADkANgAwAGEANgA8AC8ATABBAF8AVQBSAEwAPgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</mspr:pro>
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+        <cenc:pssh>AAAAXHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADwIARIQe3eqT2ryXj6jzHc5mmlgphoIdXNwLWNlbmMiGGUzZXFUMnJ5WGo2anpIYzVtbWxncGc9PSoAMgA=</cenc:pssh>
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" initialization="avc_dash_global-$RepresentationID$.dash" media="avc_dash_global-$RepresentationID$-$Time$.dash">
+        <!-- 2025-10-19T14:56:59.360000Z / 1760885819 - 2025-10-19T18:51:40.640000Z -->
+        <SegmentTimeline>
+          <S t="84522519329280" d="92160" r="93"/>
+          <S d="44031"/>
+          <S d="48129"/>
+          <S d="92160" r="2"/>
+          <S d="59391"/>
+          <S d="32769"/>
+          <S d="92160" r="7234"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="eng_258_128000=128000" bandwidth="128000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" group="1" contentType="audio" lang="en" segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <!-- Common Encryption -->
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="7B77AA4F-6AF2-5E3E-A3CC-77399A6960A6">
+      </ContentProtection>
+      <!-- Marlin -->
+      <ContentProtection schemeIdUri="urn:uuid:5E629AF5-38DA-4063-8977-97FFBD9902D4">
+        <MarlinContentIds xmlns="urn:marlin:mas:1-0:services:schemas:mpd">
+          <MarlinContentId>urn:marlin:kid:7b77aa4f6af25e3ea3cc77399a6960a6</MarlinContentId>
+        </MarlinContentIds>
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="MSPR 2.0">
+        <cenc:pssh>AAADQnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAyIiAwAAAQABABgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBUADYAcAAzAGUALwBKAHEAUABsADYAagB6AEgAYwA1AG0AbQBsAGcAcABnAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFIAQwAyADcAMwAwAHQAOAAwAEgAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcABzADoALwAvAGQAcgBtAC4AZAByAG0ALgBpAG4AZABhAHoAbgAuAGMAbwBtAC8AcABsAGEAeQByAGUAYQBkAHkALwB2ADEALwBsAGkAYwBlAG4AcwBlAD8AYwBvAG4AdABlAG4AdABJAGQAPQBoAHUAawBsAHIAawByAG8AbQBuAG0AMQA4ADgAMwAzADEAZwAwAG4AZgBrAGcAcQAvAGsAZQB5AEkAZAA9ADcAYgA3ADcAYQBhADQAZgAtADYAYQBmADIALQA1AGUAMwBlAC0AYQAzAGMAYwAtADcANwAzADkAOQBhADYAOQA2ADAAYQA2ADwALwBMAEEAXwBVAFIATAA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</cenc:pssh>
+        <mspr:IsEncrypted>1</mspr:IsEncrypted>
+        <mspr:IV_Size>8</mspr:IV_Size>
+        <mspr:kid>T6p3e/JqPl6jzHc5mmlgpg==</mspr:kid>
+        <mspr:pro>IgMAAAEAAQAYAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AVAA2AHAAMwBlAC8ASgBxAFAAbAA2AGoAegBIAGMANQBtAG0AbABnAHAAZwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBSAEMAMgA3ADMAMAB0ADgAMABIADAAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBkAHIAbQAuAGQAcgBtAC4AaQBuAGQAYQB6AG4ALgBjAG8AbQAvAHAAbABhAHkAcgBlAGEAZAB5AC8AdgAxAC8AbABpAGMAZQBuAHMAZQA/AGMAbwBuAHQAZQBuAHQASQBkAD0AaAB1AGsAbAByAGsAcgBvAG0AbgBtADEAOAA4ADMAMwAxAGcAMABuAGYAawBnAHEALwBrAGUAeQBJAGQAPQA3AGIANwA3AGEAYQA0AGYALQA2AGEAZgAyAC0ANQBlADMAZQAtAGEAMwBjAGMALQA3ADcAMwA5ADkAYQA2ADkANgAwAGEANgA8AC8ATABBAF8AVQBSAEwAPgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</mspr:pro>
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+        <cenc:pssh>AAAAXHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADwIARIQe3eqT2ryXj6jzHc5mmlgphoIdXNwLWNlbmMiGGUzZXFUMnJ5WGo2anpIYzVtbWxncGc9PSoAMgA=</cenc:pssh>
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" initialization="avc_dash_global-$RepresentationID$.dash" media="avc_dash_global-$RepresentationID$-$Time$.dash">
+        <!-- 2025-10-19T14:56:59.360000Z / 1760885819 - 2025-10-19T18:51:40.640000Z -->
+        <SegmentTimeline>
+          <S t="84522519329280" d="92160" r="93"/>
+          <S d="44031"/>
+          <S d="48129"/>
+          <S d="92160" r="2"/>
+          <S d="59391"/>
+          <S d="32769"/>
+          <S d="92160" r="7234"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="eng_258_64000=64000" bandwidth="64000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" group="1" contentType="audio" lang="es" segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <!-- Common Encryption -->
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="7B77AA4F-6AF2-5E3E-A3CC-77399A6960A6">
+      </ContentProtection>
+      <!-- Marlin -->
+      <ContentProtection schemeIdUri="urn:uuid:5E629AF5-38DA-4063-8977-97FFBD9902D4">
+        <MarlinContentIds xmlns="urn:marlin:mas:1-0:services:schemas:mpd">
+          <MarlinContentId>urn:marlin:kid:7b77aa4f6af25e3ea3cc77399a6960a6</MarlinContentId>
+        </MarlinContentIds>
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="MSPR 2.0">
+        <cenc:pssh>AAADQnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAyIiAwAAAQABABgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBUADYAcAAzAGUALwBKAHEAUABsADYAagB6AEgAYwA1AG0AbQBsAGcAcABnAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFIAQwAyADcAMwAwAHQAOAAwAEgAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcABzADoALwAvAGQAcgBtAC4AZAByAG0ALgBpAG4AZABhAHoAbgAuAGMAbwBtAC8AcABsAGEAeQByAGUAYQBkAHkALwB2ADEALwBsAGkAYwBlAG4AcwBlAD8AYwBvAG4AdABlAG4AdABJAGQAPQBoAHUAawBsAHIAawByAG8AbQBuAG0AMQA4ADgAMwAzADEAZwAwAG4AZgBrAGcAcQAvAGsAZQB5AEkAZAA9ADcAYgA3ADcAYQBhADQAZgAtADYAYQBmADIALQA1AGUAMwBlAC0AYQAzAGMAYwAtADcANwAzADkAOQBhADYAOQA2ADAAYQA2ADwALwBMAEEAXwBVAFIATAA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</cenc:pssh>
+        <mspr:IsEncrypted>1</mspr:IsEncrypted>
+        <mspr:IV_Size>8</mspr:IV_Size>
+        <mspr:kid>T6p3e/JqPl6jzHc5mmlgpg==</mspr:kid>
+        <mspr:pro>IgMAAAEAAQAYAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AVAA2AHAAMwBlAC8ASgBxAFAAbAA2AGoAegBIAGMANQBtAG0AbABnAHAAZwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBSAEMAMgA3ADMAMAB0ADgAMABIADAAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBkAHIAbQAuAGQAcgBtAC4AaQBuAGQAYQB6AG4ALgBjAG8AbQAvAHAAbABhAHkAcgBlAGEAZAB5AC8AdgAxAC8AbABpAGMAZQBuAHMAZQA/AGMAbwBuAHQAZQBuAHQASQBkAD0AaAB1AGsAbAByAGsAcgBvAG0AbgBtADEAOAA4ADMAMwAxAGcAMABuAGYAawBnAHEALwBrAGUAeQBJAGQAPQA3AGIANwA3AGEAYQA0AGYALQA2AGEAZgAyAC0ANQBlADMAZQAtAGEAMwBjAGMALQA3ADcAMwA5ADkAYQA2ADkANgAwAGEANgA8AC8ATABBAF8AVQBSAEwAPgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</mspr:pro>
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+        <cenc:pssh>AAAAXHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADwIARIQe3eqT2ryXj6jzHc5mmlgphoIdXNwLWNlbmMiGGUzZXFUMnJ5WGo2anpIYzVtbWxncGc9PSoAMgA=</cenc:pssh>
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" initialization="avc_dash_global-$RepresentationID$.dash" media="avc_dash_global-$RepresentationID$-$Time$.dash">
+        <!-- 2025-10-19T14:56:59.360000Z / 1760885819 - 2025-10-19T18:51:40.640000Z -->
+        <SegmentTimeline>
+          <S t="84522519329280" d="92160" r="93"/>
+          <S d="44031"/>
+          <S d="48129"/>
+          <S d="92160" r="2"/>
+          <S d="59391"/>
+          <S d="32769"/>
+          <S d="92160" r="7234"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="spa_262_128000=128000" bandwidth="128000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="4" group="1" contentType="audio" lang="es" segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2" startWithSAP="1">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <!-- Common Encryption -->
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="7B77AA4F-6AF2-5E3E-A3CC-77399A6960A6">
+      </ContentProtection>
+      <!-- Marlin -->
+      <ContentProtection schemeIdUri="urn:uuid:5E629AF5-38DA-4063-8977-97FFBD9902D4">
+        <MarlinContentIds xmlns="urn:marlin:mas:1-0:services:schemas:mpd">
+          <MarlinContentId>urn:marlin:kid:7b77aa4f6af25e3ea3cc77399a6960a6</MarlinContentId>
+        </MarlinContentIds>
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="MSPR 2.0">
+        <cenc:pssh>AAADQnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAyIiAwAAAQABABgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBUADYAcAAzAGUALwBKAHEAUABsADYAagB6AEgAYwA1AG0AbQBsAGcAcABnAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFIAQwAyADcAMwAwAHQAOAAwAEgAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcABzADoALwAvAGQAcgBtAC4AZAByAG0ALgBpAG4AZABhAHoAbgAuAGMAbwBtAC8AcABsAGEAeQByAGUAYQBkAHkALwB2ADEALwBsAGkAYwBlAG4AcwBlAD8AYwBvAG4AdABlAG4AdABJAGQAPQBoAHUAawBsAHIAawByAG8AbQBuAG0AMQA4ADgAMwAzADEAZwAwAG4AZgBrAGcAcQAvAGsAZQB5AEkAZAA9ADcAYgA3ADcAYQBhADQAZgAtADYAYQBmADIALQA1AGUAMwBlAC0AYQAzAGMAYwAtADcANwAzADkAOQBhADYAOQA2ADAAYQA2ADwALwBMAEEAXwBVAFIATAA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</cenc:pssh>
+        <mspr:IsEncrypted>1</mspr:IsEncrypted>
+        <mspr:IV_Size>8</mspr:IV_Size>
+        <mspr:kid>T6p3e/JqPl6jzHc5mmlgpg==</mspr:kid>
+        <mspr:pro>IgMAAAEAAQAYAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AVAA2AHAAMwBlAC8ASgBxAFAAbAA2AGoAegBIAGMANQBtAG0AbABnAHAAZwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBSAEMAMgA3ADMAMAB0ADgAMABIADAAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBkAHIAbQAuAGQAcgBtAC4AaQBuAGQAYQB6AG4ALgBjAG8AbQAvAHAAbABhAHkAcgBlAGEAZAB5AC8AdgAxAC8AbABpAGMAZQBuAHMAZQA/AGMAbwBuAHQAZQBuAHQASQBkAD0AaAB1AGsAbAByAGsAcgBvAG0AbgBtADEAOAA4ADMAMwAxAGcAMABuAGYAawBnAHEALwBrAGUAeQBJAGQAPQA3AGIANwA3AGEAYQA0AGYALQA2AGEAZgAyAC0ANQBlADMAZQAtAGEAMwBjAGMALQA3ADcAMwA5ADkAYQA2ADkANgAwAGEANgA8AC8ATABBAF8AVQBSAEwAPgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</mspr:pro>
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+        <cenc:pssh>AAAAXHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADwIARIQe3eqT2ryXj6jzHc5mmlgphoIdXNwLWNlbmMiGGUzZXFUMnJ5WGo2anpIYzVtbWxncGc9PSoAMgA=</cenc:pssh>
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="48000" initialization="avc_dash_global-$RepresentationID$.dash" media="avc_dash_global-$RepresentationID$-$Time$.dash">
+        <!-- 2025-10-19T14:56:59.360000Z / 1760885819 - 2025-10-19T18:51:40.640000Z -->
+        <SegmentTimeline>
+          <S t="84522519329280" d="92160" r="93"/>
+          <S d="44031"/>
+          <S d="48129"/>
+          <S d="92160" r="2"/>
+          <S d="59391"/>
+          <S d="32769"/>
+          <S d="92160" r="7234"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="spa_262_64000=64000" bandwidth="64000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="5" group="2" contentType="video" par="16:9" minBandwidth="288000" maxBandwidth="8000000" maxWidth="1920" maxHeight="1080" minFrameRate="25" maxFrameRate="50" segmentAlignment="true" sar="1:1" mimeType="video/mp4" startWithSAP="1">
+      <!-- Common Encryption -->
+      <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="7B77AA4F-6AF2-5E3E-A3CC-77399A6960A6">
+      </ContentProtection>
+      <!-- Marlin -->
+      <ContentProtection schemeIdUri="urn:uuid:5E629AF5-38DA-4063-8977-97FFBD9902D4">
+        <MarlinContentIds xmlns="urn:marlin:mas:1-0:services:schemas:mpd">
+          <MarlinContentId>urn:marlin:kid:7b77aa4f6af25e3ea3cc77399a6960a6</MarlinContentId>
+        </MarlinContentIds>
+      </ContentProtection>
+      <!-- PlayReady -->
+      <ContentProtection schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="MSPR 2.0">
+        <cenc:pssh>AAADQnBzc2gAAAAAmgTweZhAQoarkuZb4IhflQAAAyIiAwAAAQABABgDPABXAFIATQBIAEUAQQBEAEUAUgAgAHgAbQBsAG4AcwA9ACIAaAB0AHQAcAA6AC8ALwBzAGMAaABlAG0AYQBzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAEQAUgBNAC8AMgAwADAANwAvADAAMwAvAFAAbABhAHkAUgBlAGEAZAB5AEgAZQBhAGQAZQByACIAIAB2AGUAcgBzAGkAbwBuAD0AIgA0AC4AMAAuADAALgAwACIAPgA8AEQAQQBUAEEAPgA8AFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBFAFkATABFAE4APgAxADYAPAAvAEsARQBZAEwARQBOAD4APABBAEwARwBJAEQAPgBBAEUAUwBDAFQAUgA8AC8AQQBMAEcASQBEAD4APAAvAFAAUgBPAFQARQBDAFQASQBOAEYATwA+ADwASwBJAEQAPgBUADYAcAAzAGUALwBKAHEAUABsADYAagB6AEgAYwA1AG0AbQBsAGcAcABnAD0APQA8AC8ASwBJAEQAPgA8AEMASABFAEMASwBTAFUATQA+AFIAQwAyADcAMwAwAHQAOAAwAEgAMAA9ADwALwBDAEgARQBDAEsAUwBVAE0APgA8AEwAQQBfAFUAUgBMAD4AaAB0AHQAcABzADoALwAvAGQAcgBtAC4AZAByAG0ALgBpAG4AZABhAHoAbgAuAGMAbwBtAC8AcABsAGEAeQByAGUAYQBkAHkALwB2ADEALwBsAGkAYwBlAG4AcwBlAD8AYwBvAG4AdABlAG4AdABJAGQAPQBoAHUAawBsAHIAawByAG8AbQBuAG0AMQA4ADgAMwAzADEAZwAwAG4AZgBrAGcAcQAvAGsAZQB5AEkAZAA9ADcAYgA3ADcAYQBhADQAZgAtADYAYQBmADIALQA1AGUAMwBlAC0AYQAzAGMAYwAtADcANwAzADkAOQBhADYAOQA2ADAAYQA2ADwALwBMAEEAXwBVAFIATAA+ADwALwBEAEEAVABBAD4APAAvAFcAUgBNAEgARQBBAEQARQBSAD4A</cenc:pssh>
+        <mspr:IsEncrypted>1</mspr:IsEncrypted>
+        <mspr:IV_Size>8</mspr:IV_Size>
+        <mspr:kid>T6p3e/JqPl6jzHc5mmlgpg==</mspr:kid>
+        <mspr:pro>IgMAAAEAAQAYAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AVAA2AHAAMwBlAC8ASgBxAFAAbAA2AGoAegBIAGMANQBtAG0AbABnAHAAZwA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBSAEMAMgA3ADMAMAB0ADgAMABIADAAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBkAHIAbQAuAGQAcgBtAC4AaQBuAGQAYQB6AG4ALgBjAG8AbQAvAHAAbABhAHkAcgBlAGEAZAB5AC8AdgAxAC8AbABpAGMAZQBuAHMAZQA/AGMAbwBuAHQAZQBuAHQASQBkAD0AaAB1AGsAbAByAGsAcgBvAG0AbgBtADEAOAA4ADMAMwAxAGcAMABuAGYAawBnAHEALwBrAGUAeQBJAGQAPQA3AGIANwA3AGEAYQA0AGYALQA2AGEAZgAyAC0ANQBlADMAZQAtAGEAMwBjAGMALQA3ADcAMwA5ADkAYQA2ADkANgAwAGEANgA8AC8ATABBAF8AVQBSAEwAPgA8AC8ARABBAFQAQQA+ADwALwBXAFIATQBIAEUAQQBEAEUAUgA+AA==</mspr:pro>
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+        <cenc:pssh>AAAAXHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADwIARIQe3eqT2ryXj6jzHc5mmlgphoIdXNwLWNlbmMiGGUzZXFUMnJ5WGo2anpIYzVtbWxncGc9PSoAMgA=</cenc:pssh>
+      </ContentProtection>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="600" initialization="avc_dash_global-$RepresentationID$.dash" media="avc_dash_global-$RepresentationID$-$Time$.dash">
+        <!-- 2025-10-19T14:56:59.360000Z / 1760885819 - 2025-10-19T18:51:38.720000Z -->
+        <SegmentTimeline>
+          <S t="1056531491616" d="1152" r="93"/>
+          <S d="528"/>
+          <S d="624"/>
+          <S d="1152" r="2"/>
+          <S d="720"/>
+          <S d="432"/>
+          <S d="1152" r="7233"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="video=288000" bandwidth="288000" width="480" height="270" frameRate="25" codecs="avc1.4D401F" scanType="progressive">
+      </Representation>
+      <Representation id="video=480000" bandwidth="480000" width="640" height="360" frameRate="25" codecs="avc1.4D401F" scanType="progressive">
+      </Representation>
+      <Representation id="video=840000" bandwidth="840000" width="960" height="540" frameRate="25" codecs="avc1.4D401F" scanType="progressive">
+      </Representation>
+      <Representation id="video=1499968" bandwidth="1499968" width="960" height="540" frameRate="25" codecs="avc1.4D401F" scanType="progressive">
+      </Representation>
+      <Representation id="video=2299968" bandwidth="2299968" width="1280" height="720" frameRate="25" codecs="avc1.4D401F" scanType="progressive">
+      </Representation>
+      <Representation id="video=3000000" bandwidth="3000000" width="1280" height="720" frameRate="25" codecs="avc1.4D401F" scanType="progressive">
+      </Representation>
+      <Representation id="video=4400000" bandwidth="4400000" width="1280" height="720" frameRate="50" codecs="avc1.640020" scanType="progressive">
+      </Representation>
+      <Representation id="video=6499968" bandwidth="6499968" width="1280" height="720" frameRate="50" codecs="avc1.640020" scanType="progressive">
+      </Representation>
+      <Representation id="video=8000000" bandwidth="8000000" width="1920" height="1080" frameRate="50" codecs="avc1.64002A" scanType="progressive">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:http-iso:2014" value="https://time.akamai.com/?iso"/>
+</MPD>
