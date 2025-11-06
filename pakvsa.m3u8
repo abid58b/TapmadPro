@@ -2,21 +2,21 @@
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=3185600,RESOLUTION=1920x1080,CODECS="avc1.640028,mp4a.40.2"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-Enc-serie@1/level_0.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1762530395~acl=%2f*~data=hdntl~hmac=4723c51daac6dce441a5d2680146f600d595c6d16bd28282f2969ed734c3db96/level_0.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=2195600,RESOLUTION=1280x720,CODECS="avc1.64001f,mp4a.40.2"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-Enc-serie@1/level_1.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1762530395~acl=%2f*~data=hdntl~hmac=4723c51daac6dce441a5d2680146f600d595c6d16bd28282f2969ed734c3db96/level_1.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=1425600,RESOLUTION=960x540,CODECS="avc1.64001f,mp4a.40.2"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-Enc-serie@1/level_2.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1762530395~acl=%2f*~data=hdntl~hmac=4723c51daac6dce441a5d2680146f600d595c6d16bd28282f2969ed734c3db96/level_2.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=798600,RESOLUTION=640x360,CODECS="avc1.64001e,mp4a.40.2"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-Enc-serie@1/level_3.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1762530395~acl=%2f*~data=hdntl~hmac=4723c51daac6dce441a5d2680146f600d595c6d16bd28282f2969ed734c3db96/level_3.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=380600,RESOLUTION=480x270,CODECS="avc1.640015,mp4a.40.2"
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
-https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-Enc-serie@1/level_4.m3u8
+https://saseries.akamaized.net/hls/live/2110097/T56A87p03/hdntl=exp=1762530395~acl=%2f*~data=hdntl~hmac=4723c51daac6dce441a5d2680146f600d595c6d16bd28282f2969ed734c3db96/level_4.m3u8
 
